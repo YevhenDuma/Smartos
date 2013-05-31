@@ -13,6 +13,7 @@ GIT_REPOSITORIES=       master
 GIT_REPO.master=        git://github.com/zeromq/zeromq3-x.git
 GIT_MODULE.master=      ${PKGBASE}
 GIT_TAG.master=         v3.2
+PKG_OPTIONS.=						
 
 DEPENDS+= gtar>=1.26:../../archivers/gtar
 DEPENDS+= libtool{,nb[0-9]*}:../../devel/libtool

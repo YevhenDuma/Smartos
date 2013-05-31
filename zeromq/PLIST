@@ -1,0 +1,9 @@
+@comment $NetBSD$
+include/zmq.h
+include/zmq_utils.h
+lib/pkgconfig/libzmq.pc
+lib/libzmq.so.3.0.0
+lib/libzmq.so
+lib/libzmq.a
+lib/libzmq.so.3
+lib/libzmq.la
